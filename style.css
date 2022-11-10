@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.left-col {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 35%;
+    background: url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg);
+    background-size: cover;
+}
+
+.image-label {
+    background-color: rgba(0, 0, 0, .75);
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    font-weight: 100;
+}
+
+.right-col {
+    display: inline-block;
+}
