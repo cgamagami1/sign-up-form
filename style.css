@@ -13,7 +13,7 @@ body {
     display: inline-grid;
     place-items: center;
     height: 100vh;
-    width: 40%;
+    width: 50rem;
     background: url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg);
     background-size: cover;
 }
@@ -85,4 +85,19 @@ h2 {
 
 .submit-form-area input:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .description-area {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .left-col {
+        width: 100%;
+        height: 15rem;
+    }
 }
