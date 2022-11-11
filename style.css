@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -30,5 +32,57 @@ h1 {
 
 .right-col {
     display: inline-block;
+}
+
+.description-area {
     padding: 2rem;
+}
+
+h2 {
+    margin: 5rem 0 2rem 0;
+}
+
+.input-field-area {
+    padding: 3.5rem 2rem;
+    box-shadow: 0px 0px 15px #888888;
+    display: flexbox;
+}
+
+.input-field {
+    display: inline-block;
+    margin: .5rem;
+}
+
+.input-field label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.input-field input {
+    font-size: 1.25rem;
+    padding: .25rem;
+    margin-top: .5rem;
+    border: 1px solid black;
+    border-radius: .3rem;
+}
+
+.submit-form-area {
+    padding: 2rem;
+}
+
+.submit-form-area input {
+    background: #df2597;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.75rem;
+    border: none;
+    border-radius: 0.75rem;
+    padding: .5rem 1.25rem;
+    margin: .5rem 0;
+}
+
+.submit-form-area input:hover {
+    cursor: pointer;
 }
