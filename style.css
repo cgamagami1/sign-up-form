@@ -81,10 +81,20 @@ h2 {
     border-radius: 0.75rem;
     padding: .5rem 1.25rem;
     margin: .5rem 0;
+    transition: background-color 200ms;
+}
+
+.submit-form-area input:hover {
+    background: #a32071;
 }
 
 .submit-form-area input:hover {
     cursor: pointer;
+}
+
+.input-field-area p {
+    margin: .5rem;
+    color: red;
 }
 
 @media only screen and (max-width: 700px) {

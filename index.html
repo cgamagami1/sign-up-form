@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -29,7 +30,7 @@
                     </div>
                     <div class="input-field">
                         <label for="email">Email:</label>
-                        <input type="text" name="email" id="email" required>
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="input-field">
                         <label for="phoneNumber">Phone number:</label>
@@ -37,16 +38,17 @@
                     </div>
                     <div class="input-field">
                         <label for="password">Password:</label>
-                        <input type="text" name="password" id="password" required>
+                        <input type="password" name="password" id="password" required>
                     </div>
                     <div class="input-field">
                         <label for="confirmPassword">Confirm password:</label>
-                        <input type="text" name="confirmPassword" id="confirmPassword" required>
+                        <input type="password" name="confirmPassword" id="confirmPassword" required>
                     </div>
+                    <p id="errorMessage"></p>
                 </div>
                 
                 <div class="submit-form-area">
-                    <input type="submit" value="Create Account">
+                    <input type="submit" value="Create Account" id="submit">
                     <p>Already have an account? <a href="#">Log in</a></p>
                 </div>
             </form>
