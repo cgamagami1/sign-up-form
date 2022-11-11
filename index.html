@@ -9,37 +9,42 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="left-col">
-        <div class="image-label">
+    <div class="container">
+        <div class="left-col">
             <h1>Sign-up form</h1>
         </div>
-    </div>
-    <div class="right-col">
-        <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
-            Sign up now to get started.<br><br> You know you want to.</h2>
-        <form action="results.html" method="get">
-            <label for="firstName">First name:</label>
-            <input type="text" name="firstName" id="firstName">
-
-            <label for="lastName">Last name:</label>
-            <input type="text" name="lastName" id="lastName">
-
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email">
-
-            <label for="phoneNumber">Phone number:</label>
-            <input type="text" name="phoneNumber" id="phoneNumber">
-
-            <label for="password">Password:</label>
-            <input type="text" name="password" id="password">
-
-            <label for="confirmPassword">Confirm password:</label>
-            <input type="text" name="confirmPassword" id="confirmPassword">
-
-            <input type="submit" value="Create Account">
-        </form>
-
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <div class="right-col">
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.<br><br> You know you want to.</h2>
+            <form action="results.html" method="get">
+                <div class="input-field">
+                    <label for="firstName">First name:</label>
+                    <input type="text" name="firstName" id="firstName" required>
+                </div>
+                <div class="input-field">
+                    <label for="lastName">Last name:</label>
+                    <input type="text" name="lastName" id="lastName" required>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="input-field">
+                    <label for="phoneNumber">Phone number:</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" required>
+                </div>
+                <div class="input-field">
+                    <label for="password">Password:</label>
+                    <input type="text" name="password" id="password" required>
+                </div>
+                <div class="input-field">
+                    <label for="confirmPassword">Confirm password:</label>
+                    <input type="text" name="confirmPassword" id="confirmPassword" required>
+                </div>
+                <input type="submit" value="Create Account">
+            </form>
+            <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>

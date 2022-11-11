@@ -3,30 +3,32 @@ body {
     margin: 0;
 }
 
-.left-col {
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    width: 35%;
-    background: url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg);
-    background-size: cover;
+.container {
+    display: flex;
 }
 
-.image-label {
-    background-color: rgba(0, 0, 0, .75);
-    padding: .5rem;
-    width: 100%;
-    box-sizing: border-box;
+.left-col {
+    display: inline-grid;
+    place-items: center;
+    height: 100vh;
+    width: 40%;
+    background: url(https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg);
+    background-size: cover;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     font-weight: 100;
+    background-color: rgba(0, 0, 0, .75);
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .right-col {
     display: inline-block;
+    padding: 2rem;
 }
